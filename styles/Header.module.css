@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.logo>span{
+    font-weight:bold ;
+    font-size: 1.5rem;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    justify-content: center;
+    z-index: 99;
+}
+
+.menu>li:hover {
+    cursor: pointer;
+    color: var(--themeRed);
+}
+
+.rightSide{
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.button{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.register {
+    background-color: rgb(225, 79, 79);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.login {
+    background-color:#fff;
+    color:  rgb(225, 79, 79);
+    border-color:  rgb(225, 79, 79);
+    border-radius: 20px;
+    margin-right: 10px;
+}
