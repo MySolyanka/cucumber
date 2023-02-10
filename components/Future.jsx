@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import css from '../styles/Future.module.css'
-import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+
 
 
 function Square({ text }) {
@@ -35,11 +37,11 @@ function App() {
 
   return (
     <div className={css.container}>
-      <FaAngleLeft className={css.arrow__left} onClick={handleRightArrowClick} />
+      <ArrowBackIosIcon className={css.arrow__left} onClick={handleRightArrowClick} />
       {squares.map(square => (
         <Square key={square.id} text={square.text} />
       ))}
-      <FaAngleRight className={css.arrow__right} onClick={handleLeftArrowClick} />
+      <ArrowForwardIosIcon className={css.arrow__right} onClick={handleLeftArrowClick} />
     </div>
   );
 }
