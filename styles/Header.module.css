@@ -44,20 +44,21 @@
     display: flex;
     cursor: pointer;
     z-index: 99;
+    
 }
 
 .register {
-    background-color: rgb(225, 79, 79);
-    color: #fff;
+    background-color: var(--themeRed);
+    color: white;
     border: none;
     border-radius: 20px;
     margin-right: 10px;
 }
 
 .login {
-    background-color:#fff;
-    color:  rgb(225, 79, 79);
-    border-color:  rgb(225, 79, 79);
+    background: none;
+    color:  var(--themeRed);
+    border-color:  var(--themeRed);
     border-radius: 20px;
     margin-right: 10px;
 }
