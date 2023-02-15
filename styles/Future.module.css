@@ -5,10 +5,11 @@
   }
   
   .square {
-    background-color: white;
+    /* background-color: white; */
+    background: none;
     display: flex;
     border: solid;
-    border-color: rgb(95, 95, 95);
+    border-color: #a35edf85;
     border-radius: 5%;
     align-items: center;
     justify-content: center;
@@ -17,13 +18,14 @@
     padding: 10px;
     min-width: 250px;
     min-height: 400px;
-    box-shadow: 0 18px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 50px 20px rgba(0, 0, 0, 0.1);
   }
   
   .square:hover {
+    border-color: var(--themeRed);
     transform: scale(1.1);
     color: var(--themeRed);
-    box-shadow: 0 22px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 8px 19px 8px 0px rgba(0, 0, 0, 0.16);
   }
   
   .text__square {
@@ -49,6 +51,3 @@
   }
   
 
-  .test {
-    
-  }
