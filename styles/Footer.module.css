@@ -9,7 +9,7 @@
 }
 
 .container>span {
-    color: var(--themeRed);
+    color: var(--colorPrimary);
     font-weight: bold;
 }
 
@@ -31,5 +31,5 @@
 }
 
 .social>* {
-    fill: var(--themeRed);
+    fill: var(--colorPrimary);
 }

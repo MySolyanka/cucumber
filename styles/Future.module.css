@@ -22,9 +22,9 @@
   }
   
   .square:hover {
-    border-color: var(--themeRed);
+    border-color: var(--colorPrimary);
     transform: scale(1.1);
-    color: var(--themeRed);
+    color: var(--colorPrimary);
     box-shadow: 8px 19px 8px 0px rgba(0, 0, 0, 0.16);
   }
   
@@ -47,7 +47,7 @@
   
   .arrow__left:hover,
   .arrow__right :hover {
-    color: var(--themeRed);
+    color: var(--colorPrimary);
   }
   
 

@@ -29,7 +29,7 @@
 
 .menu>li:hover {
     cursor: pointer;
-    color: var(--themeRed);
+    color: var(--colorPrimary);
 }
 
 .rightSide{
@@ -48,7 +48,7 @@
 }
 
 .register {
-    background-color: var(--themeRed);
+    background-color: var(--colorPrimary);
     color: white;
     border: none;
     border-radius: 20px;
@@ -57,8 +57,8 @@
 
 .login {
     background: none;
-    color:  var(--themeRed);
-    border-color:  var(--themeRed);
+    color:  var(--colorPrimary);
+    border-color:  var(--colorPrimary);
     border-radius: 20px;
     margin-right: 10px;
 }
