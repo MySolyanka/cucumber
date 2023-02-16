@@ -7,11 +7,10 @@ function Header() {
     const [showLoginForm, setShowLoginForm] = useState(false);
   
     function toggleLoginForm() {
-      setShowLoginForm(prevState => !prevState);
+      setShowLoginForm(!showLoginForm);
     }
   
     function handleLoginButtonClick() {
-      console.log('The login button was clicked.');
       toggleLoginForm();
     }
   

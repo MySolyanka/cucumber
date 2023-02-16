@@ -2,16 +2,7 @@ import { useState } from 'react';
 import css from '../styles/Login.module.css';
 import CloseIcon from '@mui/icons-material/Close';
 
-function LoginForm() {
-  const [showLoginForm, setShowLoginForm] = useState(true);
-
-  function toggleLoginForm() {
-    setShowLoginForm(prevState => !prevState);
-  }
-
-  if (!showLoginForm) {
-    return null;
-  }
+function LoginForm({toggleLoginForm}) {
 
   return (
     <div className={css.formWrapper}>

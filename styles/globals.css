@@ -23,12 +23,12 @@ body {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 10px;
 }
 /* Track */
-::-webkit-scrollbar-track {
-  background: var(--themeBlack);
-}
+/* ::-webkit-scrollbar-track {
+  background: var(--pink);
+} */
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
