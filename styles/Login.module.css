@@ -1,0 +1,83 @@
+.formWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form {
+    width: 350px;
+    background-color: var(--themeBlack);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .formHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .formHeader h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--colorSecondary);
+  }
+  
+  .formHeader button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--colorSecondary);
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  
+  .formBody {
+    margin-bottom: 20px;
+  }
+  
+  .formBody label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #fff;
+  }
+  
+  .formBody input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    background-color: var(--pink);
+    color: #fff;
+  }
+  
+  .formFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .submitButton {
+    background-color: var(--colorPrimary);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: var(--colorSecondary);
+  }
+  
